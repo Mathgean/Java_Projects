@@ -17,23 +17,18 @@ If no free taxi is available, the nearest taxi is allocated.
 If two taxis are free at the same point, the one with lower earnings is allocated.
 Taxis only charge from the pickup point to the drop point.
 If no taxi is available, the booking is rejected.
-Modules:
-Call Taxi Booking
 
 Sample Inputs and Outputs:
-
 Input 1:
-
 Customer ID: 1
 Pickup Point: A
 Drop Point: B
 Pickup Time: 9
 Output 1:
-
 Taxi can be allotted.
 Taxi-1 is allotted.
-Input 2:
 
+Input 2:
 Customer ID: 2
 Pickup Point: B
 Drop Point: D
@@ -54,16 +49,8 @@ Taxi can be allotted.
 Taxi-1 is allotted.
 Display Taxi Details
 
-Output Example:
+![Screenshot 2024-11-15 135230](https://github.com/user-attachments/assets/97a61788-f22e-45e7-975c-e8bdea4b39f2)
 
-Taxi-1    Total Earnings: Rs. 400
-BookingID   CustomerID   From   To   PickupTime   DropTime   Amount
-1           1            A      B    9           10         200
-3           3            B      C    12          13         200
-
-Taxi-2    Total Earnings: Rs. 350
-BookingID   CustomerID   From   To   PickupTime   DropTime   Amount
-2           2            B      D    9           11         350
 
 
 Question 2: Food Delivery application.
